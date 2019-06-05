@@ -1,0 +1,51 @@
+body{background-color:white;}
+
+#banner{height:140px;}
+.transition{height:40px; background-color:#00b36b; border-radius:25px;}	
+.transition a{margin-left:90%;}
+.transition input {width:100px; background-color:#00b36b;}
+.transition input:hover{background-color:#f2f2f2;}
+.logoimg {	height:140px;	width:350px;	float:right;}
+.logobrand{	height:140px;	font-size:40px;font-family: 'Pacifico', cursive;text-align:center;padding-top:5px;color:#cc3300;}
+#notes{width:30%;float:left;text-align: justify;text-indent: 25px;font-family: 'Noto Sans KR', sans-serif;}
+#welcomepage{width:60%;float:left;margin:0 5% 0 5%; font-family: 'Noto Sans KR', sans-serif;}
+#notes .button {width:250px;}
+#notes li {padding-top:30px; margin-left:-30px;}
+#welcomepage table tr td {padding-left:20px; padding-top:5px;}
+#Firstpage {margin:auto; font-family: 'Noto Sans KR', sans-serif;}
+label { display: inline-block; width: 150px; text-align: center;}
+.labeldiv{width:800px;margin:auto;}
+ input, textarea { font: 1em sans-serif; width: 300px; border: 1px solid #999; border-radius: 10px; height:40px;}
+ select {font: 1em sans-serif; width: 150px; box-sizing: border-box; border: 1px solid #999; border-radius: 10px; height:40px;}
+.button {display: inline-block; padding: 5px 10px; font-size: 15px; cursor: pointer; text-align: center; color: #fff; background-color: #999;border-radius: 5px; box-shadow: 0 9px #999;}
+.button:hover {background-color: #3e8e41}
+.button:active { background-color: #3e8e41; box-shadow: 0 5px #666; transform: translateY(4px); }
+#mealtype{border-collapse:collapse;margin:auto;}
+#mealtype, #mealtype tr ,#mealtype td{border:0px solid black;}
+#listcaterer{border-collapse:collapse;margin:auto;}
+#listcaterer, #listcaterer tr ,#listcaterer td{border:1px solid black;}
+#footer {border-top:15px solid #00b36b;clear:both;border-radius:25px; border-bottom:15px; font-size:12px;}
+.welcomenote{font-family: 'Noto Sans KR', sans-serif; font-size: 20px;color:#8c1aff;}
+.labeldiv table{border-collapse:collapse;}
+.labeldiv table td {padding-top:10px;}
+#mealform input, textarea{width:150px;}
+#mealform label{width:250px;}
+#mealform, #mealform tr , #mealform td {margin:auto;border-radius:8px; border-collapse:collapse; text-align:center;}
+.fshade{background-color:#f2f2f2;}
+.sshade{background-color:#e0e0d1;}
+
+#welcomepage .mealrequest button {margin-left:20px;}
+#welcomepage .mealrequest select {margin:auto;}
+
+
+.readonly {background-color:#e0e0d1;}
+.mealrequest select{width:450px;}
+input:read-only {
+  border: 0px;
+}
+.fas{color:gray;}
+
+.iconbutton {background-color:white; border:white;}
+
+.fas:hover{color:#3e8e41; box-shadow: 3px 3px 3px 3px #888888;}
+

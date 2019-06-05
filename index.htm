@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZUMBA AIR</title>
+<link rel="stylesheet" type="text/css" href="zumbacss.css">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Pacifico" rel="stylesheet">
+
+<style>
+
+
+
+body{background:white url("A350.png")no-repeat ;
+-webkit-animation: slide 40s linear infinite;
+}
+@-webkit-keyframes slide {
+    from { background-position: -200px center; }
+    to { background-position: 400px ; }
+}
+
+</style>
+
+<script>
+
+
+
+    history.pushState(null, null, null);
+    window.addEventListener('popstate', function () {
+        history.pushState(null, null, null);
+    });
+	
+
+
+  
+
+</script>
+</head>
+<body>
+
+<div id="banner">
+<div class="logoimg">
+<img src="zumbaairlogo.png" height="140px" width="140px";>
+</div>
+<div class="logobrand">
+<p>THE PRIDE OF AIR TRAVEL</p> 
+
+</div>
+</div>
+<div class="transition"></div>
+<div id = "container">
+
+<div id="Firstpage">
+<form action="mealpage.php"  method="POST">      
+<br><br>  
+		<center><b>Please Log-in to your account</b><br><br>
+	
+        <input type="int" name="comid" placeholder="Company ID" required><br><br>
+
+        <input type="password" name="password" placeholder="Password" required><br><br>
+		<button class="button" type="submit" id="submit_button" name="login">Log-In</button></center>
+		</form>
+		<br><br>
+		<br><br>
+</div>
+
+
+<div id="footer">
+</br>
+<b>&copy; Zumba Air| yalewantenehtadesse@gmail.com | </b></div>
+</div>
+
+</body>
+</html>
